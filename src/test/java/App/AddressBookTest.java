@@ -21,7 +21,7 @@ public class AddressBookTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void testSize() {
         assertEquals("Size of Address Book should be 2.", 2, book1.getSize());
     }

@@ -1,3 +1,5 @@
+package App;
+
 import static org.junit.Assert.*;
 
 import App.BuddyInfo;

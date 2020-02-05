@@ -12,6 +12,7 @@ public class BudRestControl {
     @Autowired
     private BuddyRep repo;
     private List<BuddyInfo> list;
+
     @GetMapping("/")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="") String contact, Model model) {
         if(contact!=""){
